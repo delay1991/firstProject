@@ -1,7 +1,7 @@
 package firstProject;
 
 public class AvgExample {
-	public static void main(String[] args) {
+	public static void main(String[] args){
 		//국어, 영어, 수학 0~100
 	 int 국어 = 85;
 	 int 수학 = 88;
