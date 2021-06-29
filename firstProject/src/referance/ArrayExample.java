@@ -6,7 +6,7 @@ public class ArrayExample {
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
 		int[] intAry = new int[3]; // 배열크기만 선언.
-		intAry = new int[] { 55, 65, 75 }; // 각 값을 지정. intAry는 두라인의 거쳐서만듦.
+		intAry = new int[] { 55, 65, 75, 85 }; // 각 값을 지정. intAry는 두라인의 거쳐서만듦. 주소할당후 값은 커도 상관없으나, 주소할당이 커질수는없다 
 		intAry[2] = 88; // 배열이지만[]주소값넣어서 int타입, intAry=88;안됌
 		intAry[1] = 90;
 
