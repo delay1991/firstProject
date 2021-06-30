@@ -5,10 +5,12 @@ public class ArrayExample5 {
 		// 배열을 선언. 학생의 점수 scores
 		// 평균점수와 가장 높은 점수를 구하하는 것.
 
-		int[] scores = { 90, 80, 84 }; // 3개의값
-//		for (int i = 0; i < scores.length; i++) {
-//			scores[i] = (int) (Math.random() * 20) + 80;
-//		}
+		int[] scores =new int[3]; // { 90, 80, 84 }; 3개값
+		scores = new int[5];
+		
+	for (int i = 0; i < scores.length; i++) {
+			scores[i] = (int) (Math.random() * 20) + 80;
+		}
 
 		double avg = 0.0;
 		int maxValue = 0;
@@ -22,7 +24,7 @@ public class ArrayExample5 {
 			}
 		}
 
-		avg = sum / 3.0;
+		avg = (double) sum / scores.length;
 
 		System.out.println("평균은" + avg);
 		System.out.println("최고점수는 " + maxValue);
