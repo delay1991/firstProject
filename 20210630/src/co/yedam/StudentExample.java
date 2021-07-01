@@ -1,4 +1,4 @@
-package referance;
+package co.yedam;
 
 import co.yedam.Person;
 
@@ -33,7 +33,7 @@ public class StudentExample {
 				maxvalue = student[i].getMathScore();
 				maxStudent = student[i];
 				
-			}//ㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠ
-		}System.out.println("최고수학점수"+maxvalue +maxStudent.getName()+maxStudent.getEngilshScore());
+			}//ㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠ 두점수합이 높은사람
+		}System.out.println("최고수학점수"+maxvalue +maxStudent.getName()+maxStudent.getGrade());
 	}
 }
