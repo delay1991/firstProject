@@ -8,6 +8,15 @@ private String memberPhone;
 private String memberBirth;
 private Gender memberGen;
 
+
+
+public Member(int memberId, String memberName, String memberPhone, String memberBirth, Gender memberGen) { //순서동일해야함
+	this.memberId = memberId;
+	this.memberName = memberName;
+	this.memberPhone = memberPhone;
+	this.memberBirth = memberBirth;
+	this.memberGen = memberGen;
+}
 public int getMemberId() {
 	return memberId;
 }
@@ -39,7 +48,7 @@ public void setMemberGen(Gender memberGen) {
 	this.memberGen = memberGen;
 }
 public String showInfo() {
-	String info="회원번호: "+memberId+"회원이름: "+memberName+"연락처: "+memberPhone+"생연월일: "+memberBirth+" 성별: "+ memberGen;
+	String info="회원번호: "+memberId+"\t"+"회원이름: "+memberName+"\t"+"연락처: "+memberPhone+"\t"+"생연월일: "+memberBirth+"\t"+" 성별: "+ memberGen;
 	return info;
 }
 
