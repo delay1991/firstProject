@@ -14,10 +14,10 @@ public class Example01 {
 		e2.showInfo(); // 기본생성자
 
 //    배열 :employees(5);
-		int []employees = {};
+		employee[] employees = { e1, e2, new employee(123, "임효인", "lhi@email.com", 5000000, "총무부") };
 // 첫번째위치 e1, 두번째 e2
 // 세번째 new emplyee(123,"임효인","lhi@email.com", 5000000,"총무부)
-		//각요소출력
+		// 각요소출력
 
 	}
 }
