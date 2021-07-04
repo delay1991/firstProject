@@ -15,10 +15,13 @@ public class employee {
 	private String employeeMail;
 	private int employeeMoney;
 	private String employeeClass;
+	
+	public employee() {
+		
+	}
 
 	public employee(int employeeNum, String employeeName, String employeeMail, int employeeMoney,
 			String employeeClass) {
-		super();
 		this.employeeNum = employeeNum;
 		this.employeeName = employeeName;
 		this.employeeMail = employeeMail;
@@ -27,14 +30,9 @@ public class employee {
 	}
 
 	public employee(int employeeNum, String employeeName, String employeeMail) {
-		super();
 		this.employeeNum = employeeNum;
 		this.employeeName = employeeName;
 		this.employeeMail = employeeMail;
-	}
-
-	public employee() {
-
 	}
 
 	public int getEmployeeNum() {
