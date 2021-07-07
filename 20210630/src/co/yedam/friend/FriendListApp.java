@@ -53,8 +53,9 @@ public class FriendListApp {
 				for (int i = 0; i < friends.length; i++) {
 					if (friends[i] != null) {
 						System.out.print(friends[i].toString());
+						System.out.println();
 					}
-					System.out.println();
+					
 				}
 				break;
 			case "3":

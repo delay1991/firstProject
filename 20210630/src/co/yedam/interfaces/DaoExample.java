@@ -9,8 +9,8 @@ public class DaoExample {
 		dao.update();
 		dao.delete();
 
-		// sqlite, postgreSQL
-		Dao dao2 = new Dao() { // 익명으로 그때그때마다?
+		// sqlite
+		Dao dao2 = new Dao() { // 익명으로 일회성사용
 
 			@Override
 			public void insert() {
@@ -28,7 +28,27 @@ public class DaoExample {
 			}
 
 		};
+		
+		dao2 = new Dao() {
 
+			@Override
+			public void insert() {
+				System.out.println("postgreSQL 입력처리");
+			}
+
+			@Override
+			public void update() {
+				System.out.println("postgreSQL 입력처리");
+				
+			}
+
+			@Override
+			public void delete() {
+				System.out.println("postgreSQL 입력처리");
+			}
+			
+		};
+		
 		dao2.insert();
 		dao2.update();
 		dao2.delete();

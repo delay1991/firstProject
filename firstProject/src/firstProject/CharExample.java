@@ -2,20 +2,20 @@ package firstProject;
 
 public class CharExample {
 	public static void main(String[] args) {
-		char c1 = 'A'; //¹®ÀÚ¸¦ Á÷Á¢ÀúÀå
-		char c2 = 65; //10Áø¼öÀúÀå
-		char c3 = '\u0041'; //16Áø¼öÀúÀå
+		char c1 = 'A'; //ï¿½ï¿½ï¿½Ú¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+		char c2 = 65; //10ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+		char c3 = '\u0041'; //16ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		
-		char c4 = '°¡';
+//		char c4 = 'ï¿½ï¿½';
 		char c5 = 44032;
 		char c6 = '\uac00';
 		
-		int uniCode = c1; //À¯´ÏÄÚµå¾ò±â
+		int uniCode = c1; //ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½ï¿½ï¿½
 		
 		System.out.println(c1);
 		System.out.println(c2);
 		System.out.println(c3);
-		System.out.println(c4);
+//		System.out.println(c4);
 		System.out.println(c5);
 		System.out.println(c6);
 		System.out.println(uniCode);

@@ -6,7 +6,7 @@ public class MethodExample3 {
 		Student s2 = new Student("김지연", 2, 70, 77);
 
 		Student[] javaClass = { s1, s2, new Student("최유리", 2, 70, 75) };
-		s2.showInfo();
+//		s2.showInfo();
 //		s1.setName("최예원");
 //		s1.setGrade(1);
 //		s1.setEngilshScore(80);

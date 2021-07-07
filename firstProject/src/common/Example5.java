@@ -8,7 +8,7 @@ public class Example5 {
 		String strVaule = "A";
 		
 		int var = (int) doubleVaule;
-		char var1 = (char) strVaule;
+//		char var1 = (char) strVaule;
 		byte var2 = (byte) intVaule;
 		double var3 = (double) intVaule;
 	}
