@@ -57,11 +57,11 @@ public class pilatesApp {
 					members[i].setMemberName(name);
 				}
 				String phone = scanSrting("연락처 입력 >>");
-				if(!phone.equals("")) {
+				if (!phone.equals("")) {
 					members[i].setMemberPhone(phone);
 				}
 				String birth = scanSrting("생일 입력 >>");
-				if(!birth.equals("")) {
+				if (!birth.equals("")) {
 					members[i].setMemberBirth(birth);
 				}
 
@@ -160,6 +160,7 @@ public class pilatesApp {
 			try {
 				System.out.println(arg);
 				val = scn.nextInt();
+				scn.nextLine();
 				break;
 			} catch (Exception e) {
 				System.out.println("숫자만 입력");

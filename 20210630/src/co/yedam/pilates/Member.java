@@ -29,7 +29,7 @@ public class Member {
 	}
 
 	public Member(int i, String string, String string2) {
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	public int getMemberId() {
